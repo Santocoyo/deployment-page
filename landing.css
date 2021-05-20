@@ -1,0 +1,94 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+#BarraNavegacion{
+    background-color: darkseagreen;
+    height: 100px;
+}
+
+ul{
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: lightsalmon;
+}
+
+a:hover{
+    color:maroon;
+}
+
+header{
+    background-image: url("https://images.unsplash.com/photo-1476673160081-cf065607f449?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80");
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    padding-top: 140px;
+}
+
+h1{
+    margin:0;
+    font-size: 60px;
+}
+
+section{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+section img{
+    width: 400px;
+}
+
+#bienvenida{
+    background-color: pink;
+    margin-left: 50px;
+}
+
+#oferta{
+    background-color:deepskyblue;
+    margin-left: 100px;
+}
+
+footer{
+    background-color: khaki;
+    height: 50px;
+    text-align: center;
+}
+
+footer h5{
+    margin: 0;
+    font-size: 25px;
+}
+
+h1:hover{
+    color: #555;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+#oferta:hover{
+    transform: scale(1.1) translateX(100px);
+    transition: all 0.5s;
+}
+
+#bienvenida:hover{
+    transform: scale(1.1) translateX(100px);
+    transition: all 0.5s;
+}
